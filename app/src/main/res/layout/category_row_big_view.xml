@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="@dimen/_10sdp"
+app:cardElevation="@dimen/_8sdp"
+app:cardMaxElevation="@dimen/_8sdp"
+app:cardUseCompatPadding="true"
+>
+    <LinearLayout
+            android:id="@+id/mealLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <ImageView
+            android:id="@+id/cat_image"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:background="@color/yellow"
+            android:scaleType="centerCrop"/>
+    <TextView
+            android:id="@+id/catTitle"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:hint="Non Veg"
+            android:fontFamily="@font/gilroy_light"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="@dimen/_5sdp"
+            android:layout_alignParentBottom="true"
+            android:ellipsize="none"
+            android:minLines="2"
+            android:maxLines="2"
+
+    />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
