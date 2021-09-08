@@ -5,6 +5,8 @@
 4. Dagger Hilt for depenedancy injection.
 5. Retrofit2 and RecyclerView.
 
+API used from: https://www.themealdb.com
+
 Note: Same app is develoed using React Native. Refer link below:
 https://github.com/KetanBhangale/React-Native-Recipe-App-with-Database.git
 
