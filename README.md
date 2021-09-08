@@ -7,7 +7,7 @@
 
 API used from: https://www.themealdb.com
 
-Note: Same app is develoed using React Native. Refer link below:
+Note: Same app is develoed using React Native-SQLite-React-Hooks-Axios. Refer link below:
 https://github.com/KetanBhangale/React-Native-Recipe-App-with-Database.git
 
 Screenshots:
